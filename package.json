@@ -52,7 +52,6 @@
   "lint-staged": {
     "*.js{,x}": [
       "yarn prettier --write",
-      "yarn lint --fix",
       "git add"
     ]
   },
