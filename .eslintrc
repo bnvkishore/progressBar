@@ -1,0 +1,21 @@
+{
+  "extends": ["airbnb", "react-app", "prettier"],
+  "plugins": ["import", "prettier"],
+  "rules": {
+    "complexity": ["error", 11],
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "parent", "sibling", "index"],
+        "newlines-between": "never"
+      }
+    ],
+    "max-depth": ["error", 6],
+    "max-lines": ["error", { "max": 1000 }],
+    "max-params": ["error", 5],
+    "prettier/prettier": ["error"],
+    "react/jsx-key": ["error"],
+    "react/jsx-one-expression-per-line": ["off"],
+    "react/jsx-wrap-multilines": ["off"]
+  }
+}
